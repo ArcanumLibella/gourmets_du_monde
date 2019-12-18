@@ -18,9 +18,15 @@
 <body>
   <header class="header">
     <div class="content-wrapper">
-      <img src="./assets/img/LOGO.svg" alt="logo" title="Logo gourmet du monde" />
+      <img class="header__logo" src="./assets/img/LOGO.svg" alt="logo" title="Logo gourmet du monde" />
+      <ul class="header__items">
+        <li class="header__item menu-link">Recettes
+          <img src="./assets/img/icon_arrow.svg" alt="flèche déroulante" />
+        </li>
+        <li class="header__item menu-link">Produits du terroir</li>
+        <li class="header__item menu-link">Voyages</li>
+      </ul>
     </div>
-
   </header>
 
   <section class="hero">
@@ -29,13 +35,26 @@
   </section>
 
   <article class="categories">
-    <article class="article--day">
+    <section class="articles">
 
-    </article>
+      <article class="article article--day">
+        <div class="article__header">
+          <h3 class="categories__title h3">Article du jour</h3>
+          <p class="categories__see-more">Voir les articles plus récents</p>
+        </div>
+        <img class="" alt="" />
+        <span class="article__date h5">10 décembre 2019</span>
+        <h4 class="article__title h4">Bellota Bellota, Serrano , Iberico, Jabugo ...</h4>
+      </article>
 
-    <article class="article--day">
+      <article class="article article--receap">
 
-    </article>
+      </article>
+
+      <article class="article article--travel">
+
+      </article>
+    </section>
   </article>
 
   <footer class="footer">

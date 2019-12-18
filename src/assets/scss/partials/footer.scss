@@ -1,5 +1,5 @@
 .footer {
-  background-color: $secondary;
+  background-color: $grey;
   width: 100%;
 
   &__logo {
@@ -16,7 +16,7 @@
   &__socials {
     display: flex;
     flex-wrap: wrap;
-    width: 160px;
+    width: 180px;
     justify-content: flex-start;
   }
 
@@ -37,6 +37,9 @@
 
   &__item {
 
+    &:nth-child(1) {
+      margin-bottom: 10px;
+    }
   }
 
   &__copyright {
@@ -44,5 +47,6 @@
     bottom: 0;
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
   }
 }

@@ -6,10 +6,34 @@
 
 .h2 {
   font-family: 'Lato', sans-serif;
+  font-size: rem(32px);
+  font-weight: 200;
+}
+
+.h3 {
+  font-size: rem(28px);
+  font-weight: 600;
+}
+
+.h4 {
+  font-size: rem(24px);
+  font-weight: 600;
+}
+
+.h5 {
+  font-size: rem(20px);
+  font-weight: 600;
+  color: $secondary;
 }
 
 .paragraph {
   font-size: rem(16px);
+}
+
+.menu-link {
+  font-size: rem(21px);
+  font-weight: 600;
+  color: $white;
 }
 
 .footer-title {

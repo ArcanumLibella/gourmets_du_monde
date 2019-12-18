@@ -1,0 +1,32 @@
+.categories {
+
+  &__title {
+
+  }
+
+  &__see-more {
+    color: $darkGrey;
+  }
+
+  .articles {
+    max-width: 950px;
+    border: 1px solid lightgrey;
+    margin: -30px auto;
+    padding: 45px;
+    background: $white;
+  }
+
+  .article {
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
+      border-bottom: 2px solid black;
+    }
+
+    &__title {
+
+    }
+  }
+}
