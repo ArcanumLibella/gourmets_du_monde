@@ -1,0 +1,25 @@
+// GLOBAL
+@import 'global/reset.scss';
+@import 'global/utilities.scss';
+@import 'global/typography.scss';
+@import 'global/variables.scss';
+
+// PARTIALS
+@import 'partials/hero.scss';
+@import 'partials/header.scss';
+@import 'partials/footer.scss';
+
+// PAGES
+@import 'pages/homepage.scss';
+@import 'pages/article.scss';
+
+.content-wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+body {
+  background-color: $primary;
+}

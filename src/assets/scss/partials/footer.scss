@@ -1,0 +1,48 @@
+.footer {
+  background-color: $secondary;
+  width: 100%;
+
+  &__logo {
+    position: relative;
+    top: -40px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  &__socials {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    justify-content: flex-start;
+  }
+
+  &__social {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+  }
+
+  &__items {
+    margin: 0 30px;
+  }
+
+  &__item {
+
+  }
+
+  &__copyright {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
