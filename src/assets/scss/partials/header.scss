@@ -2,11 +2,12 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 80px;
+  height: $headerHeight;
   display: flex;
   align-items: center;
   padding-top: 10px;
   z-index: 1;
+  transition: all 0.2s ease;
 
   &__logo {
     display: inline-block;
@@ -35,4 +36,8 @@
   .search {
     width: 100px;
   }
+}
+
+.header__scroll {
+  background-color: #584436;
 }
