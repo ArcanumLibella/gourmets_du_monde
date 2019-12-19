@@ -22,8 +22,8 @@
 
   .article {
 
-    &__title {
-
+    &__link {
+      cursor: pointer;
     }
 
     &__description {
@@ -38,9 +38,23 @@
       margin-top: 10px;
     }
 
+    &__img {
+
+    }
+
     &--many-horiz {
       display: flex;
       justify-content: center;
+
+      .article {
+        &__card {
+          width: calc(100% / 3);
+
+          img {
+            max-height: 210px;
+          }
+        }
+      }
     }
 
     &--many-vert {
