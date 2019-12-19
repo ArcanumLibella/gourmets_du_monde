@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html && cp ./src/robots.txt ./dist/robots.txt && cp ./src/sitemap.xml ./dist/sitemap.xml"
   },
   "repository": {
     "type": "git",
