@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /admin/
+Disallow: *sort
+
+Sitemap: https://gourmets-du-monde.netlify.com/sitemap.xml
